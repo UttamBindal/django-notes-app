@@ -9,11 +9,11 @@ pipeline{
             clone("https://github.com/UttamBindal/django-notes-app","main")
             }
         }
-        stage("Code Build"){
-            steps{
-            dockerbuild("notes-app","latest")
-            }
-        }
+        // stage("Code Build"){
+        //     steps{
+        //     dockerbuild("notes-app","latest")
+        //     }
+        // }
         // stage("Push to DockerHub"){
         //     steps{
         //         dockerpush("dockerHubCreds","notes-app","latest")
