@@ -1,4 +1,4 @@
-@Library('Shared')_
+@Library('shared_libs')_
 pipeline{
     agent { label 'agentx'}
     
